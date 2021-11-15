@@ -5,4 +5,4 @@ before_install:
     - docker build -t 08072001vvb/docker-react -f Dockerfile.dev .
 
 script:
-    - docker run 08072001vvb/docker-react npm run build -- --coverage
+    - docker run 08072001vvb/docker-react npm run test -- --coverage
