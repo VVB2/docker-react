@@ -8,6 +8,7 @@ script:
     - docker run 08072001vvb/docker-react npm run test -- --watchAll=false
 
 deploy:
+    edge: true
     provider: elasticbeanstalk
     region: 'us-east-1'
     app: 'docker'
