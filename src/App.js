@@ -12,7 +12,7 @@ function App() {
                     href='https://reactjs.org'
                     target='_blank'
                     rel='noopener noreferrer'>
-                    Learn React!
+                    Just A Test
                 </a>
             </header>
         </div>
